@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utilities.ExtentReportManager"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true"
+                                   name="C:/Users/uneet/IdeaProjects/MyExp1/src/test/java/testcases/TC001_HomePageClass.java">
+
+    <classes>
+        <class name="testcases.TC001_HomePageClass">
+            <parameter name="browser" value="chrome"/>
+            <methods><include name="test_account_Registration"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
